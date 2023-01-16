@@ -1,0 +1,68 @@
+.title {
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 69px;
+  color: #242527;
+}
+.text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 40px;
+  color: #c4c4c4;
+}
+.name {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 42px;
+  color: #242527;
+}
+.button {
+  padding: 20px 40px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  background-color: #0a72ad;
+}
+.button:hover {
+  background-color: #5cc3ff;
+  background: #5cc3ff;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 992px) {
+  .title {
+    font-size: 43px;
+    line-height: 63px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .text {
+    font-size: 16px;
+    line-height: 36px;
+  }
+  .button {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .title {
+    font-size: 35px;
+    line-height: 55px;
+  }
+  .text {
+    font-size: 15px;
+    line-height: 35px;
+  }
+  .name {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  .button {
+    padding: 15px 35px;
+  }
+}
